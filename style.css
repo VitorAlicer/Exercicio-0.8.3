@@ -1,11 +1,11 @@
 :root {
-    --cor1: #353232;
+    --cor1: blue;
     --cor2: white;
 }
 
 button svg {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
 }
 
 button {
@@ -19,8 +19,8 @@ button {
 
 div span {
     position: absolute;
-    right: 10px;
-    top: 13px;
+    right: -2px;
+    top: -7px;
     border-radius: 20px;
     background-color: red;
     color: white;
@@ -30,16 +30,27 @@ div span {
 }
 
 div {
-    text-align: right;
+    text-align: right;  
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .user {
     position: absolute;
     right: 1px;
     bottom: -5px;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #686565 ;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+
+.Facebook {
+    width: 15px;
+    height: 15px;
     padding: 5px;
 }
