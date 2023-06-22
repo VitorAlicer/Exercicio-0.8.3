@@ -1,0 +1,74 @@
+button svg {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+button{
+
+    border-radius: 8em;
+    padding: 15px;
+    background-color: rgb(10, 9, 27);
+    border: none;
+    fill: white;
+    position: relative;
+
+}
+
+div span{
+
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 1px;
+
+}
+
+div {
+
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.seta {
+
+    position: absolute;
+    right: 1px;
+    bottom: -2px;
+    border-radius: 50px;
+    background-color: #353434 ;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+
+}
+.Facebook{
+    text-align: left;
+    position: absolute;
+    fill: white;
+  
+
+ }
+
+.logotipo{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+header{
+    background-color: rgb(1, 1, 168);
+    padding: 20px;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
